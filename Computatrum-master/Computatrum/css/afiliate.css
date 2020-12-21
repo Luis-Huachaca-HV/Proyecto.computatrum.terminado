@@ -1,0 +1,98 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h2 {
+    margin-top: 5px 0px 5px 0px !important;
+}
+
+.banner h1 {
+    margin-left: 20px;
+    color: white;
+    margin-top: -70px;
+}
+
+.afiliate-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item-afiliate {
+    border-radius: 3%;
+    margin: 10px;
+}
+
+.item-afiliate p {
+    padding: 0px 20px;
+}
+
+.item-afiliate h2 {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.item-1 {
+    background: #392378;
+    color: white;
+}
+
+.item-2 {
+    background: #f33959;
+    color: white;
+}
+
+.item-3 {
+    background: #157ef8;
+    color: white;
+}
+
+.registrese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registrese img {
+    width: 750px;
+    margin-right: 20px;
+}
+
+.section-afiliate {
+    width: 600px;
+}
+
+input:not([type="submit"]),
+textarea {
+    padding: 10px;
+    display: block;
+    background-color: #E1E1E1;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+}
+
+.registrese-item,
+form:first-child {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.boton {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    background: #392378;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+}
